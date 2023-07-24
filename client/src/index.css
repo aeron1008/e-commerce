@@ -1,0 +1,151 @@
+main {
+  min-height: 80vh;
+}
+h1 {
+  font-size: 2.0rem;
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: none;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: serif; */
+}
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+h3 {
+  padding: 1rem 0;
+}
+h4 {
+  text-transform: none;
+}
+.rating span {
+  margin: 0.1rem;
+}
+.carousel {
+  border-radius: 2%;
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+.carousel-caption h2 {
+  color: #fff;
+}
+.carousel img {
+  height: 100%;
+  justify-content: center;
+}
+.carousel a {
+  margin: 0 auto;
+}
+.img-modify {
+  width: 100%;
+  height: 100%;
+}
+.pagination {
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .carousel-caption h2 {
+    margin: -12px;
+    font-size: medium;
+  }
+}
+
+.custom-navbar {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #5f2b2b;
+  /* height: 80px; */
+  font-size: 18px;
+  padding: 5px 0px;
+}
+.logo {
+  /* height: 80px;  */
+}
+.custom-navbar a,
+.custom-navbar i
+{
+  color: #fff;
+}
+.custom-navbar span {
+  color: #fff;
+}
+
+.navbar-toggler {
+  font-size: medium;
+  background-color: #fbf8f8;
+}
+.custom-navbar .dropdown-item {
+  background-color: #fff;
+  color: #050505;
+}
+.dropdown-menu {
+  width: 700%;
+}
+
+.searchPanel {
+  width: auto;
+  font-size: 16px;
+}
+.searchPanel button {  
+  font-size: 16px;
+}
+
+#username {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+}
+#adminmenu {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+}
+
+.DetailCard .card-header {
+  height: 250px;
+  text-align: center;
+}
+.DetailCard img {
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.detailCard1 {
+  background-color: #f62222;
+}
+.detailCard2 {
+  background-color: #8bd404;
+}
+.detailCard3 {
+  background-color: #03bfb5;
+}
+
+.underNav {
+  background-color: #c6cbcb;
+  text-transform: none;
+  padding: 5px;
+  color: #050505;
+}
+.underNav-item {
+  font-size: medium; 
+  font-family:inherit;
+  width: 33.3%;
+  text-align: center;
+}
+/* .centered_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* icons */
+.bi-check-lg {
+  font-size: 1rem; 
+  color: rgb(2, 142, 146);
+}
