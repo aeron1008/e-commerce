@@ -1,6 +1,6 @@
 # 🛒 E-MART
 
-🛒 eMart - Your one-stop shopping destination
+🛒 eMart - SnusME
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/tarunsinghdev/mern-ecommerce/pulls)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://shop-on-emart.herokuapp.com/)
